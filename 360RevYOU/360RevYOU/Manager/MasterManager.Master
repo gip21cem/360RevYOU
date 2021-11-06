@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterManager.master.cs" Inherits="_360RevYOU.MasterManager" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>360 RevYOU</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2020.css">
+    <style>
+        hr.line {
+	    height: 10px;
+	    border: 0;
+	    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+        }
+
+        .slidecontainer {
+          width: 100%;
+        }
+
+        .slider {
+          -webkit-appearance: none;
+          width: 100%;
+          height: 10px;
+          border-radius: 5px;
+          background: #d3d3d3;
+          outline: none;
+          opacity: 0.7;
+          -webkit-transition: .2s;
+          transition: opacity .2s;
+        }
+
+        .slider:hover {
+          opacity: 1;
+        }
+
+    </style>
+
+</head>
+
+<body style="font-family: sans-serif">
+   
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-2021-inkwell w3-bar-block" style="width:20%">
+    <h1 class="w3-bar-item">360 RevYOU</h1>
+    <h3 class="w3-bar-item">Menu</h3>
+    <a href="/Manager/ManagerHome" class="w3-bar-item w3-button">Home</a>
+    <a href="/Manager/ManagerGoal" class="w3-bar-item w3-button">Goals</a>
+    <a href="/Manager/Notes" class="w3-bar-item w3-button">Notes & Feedbacks</a>
+    <a href="/Manager/ManagerPerformanceReview" class="w3-bar-item w3-button">Performance Review & Appraisal</a>
+    <a href="/Manager/AttritionDashboard.aspx" class="w3-bar-item w3-button">Dashboard</a> 
+     
+        <!-- <div class="w3-dropdown-hover">
+         <button class="w3-button">Dashboards<i class="fa fa-angle-down w3-margin-left"></i></button>
+         <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">Performance Dashboard</a>
+            <a href="/Manager/AttritionDashboard" class="w3-bar-item w3-button">Attrition Rate Dashboard</a>
+         </div>
+     </div>-->
+
+    </div> 
+    
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+    <a href="#" class="w3-button w3-2021-inkwell w3-margin-right w3-right"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <p class="w3-margin w3-right" style="color: dimgray; font-weight: bold ">Powered by gip21</p>
+    </footer> 
+                       
+</body>
+</html>

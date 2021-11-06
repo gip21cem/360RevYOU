@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_360RevYOU.WebForm1">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AMAAACCAAABgAEAAgAABCAAAIQAQQAAAAggACAIAAgA=</HashCode>
+      <FileName>Manager\ManagerHome.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_360RevYOU.Register">
+    <Position X="10.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAIAAAAAACAQAAAIIAIAA=</HashCode>
+      <FileName>Register.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_360RevYOU.Employee.WebForm1">
+    <Position X="4.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QEAgASAAQAAAAEAAAAABAQAQIAAAAAAAgAEAAQoAAAA=</HashCode>
+      <FileName>Employee\EmployeeNotes.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_360RevYOU.Employee.WebForm2">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IEACACAAAAABAEAEAQABAEAEIAAQQABIAAAACQIAAiA=</HashCode>
+      <FileName>Employee\SelfReview.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_360RevYOU.Manager.WebForm1">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEgAACACAAAhBEAYAAABAEoIMAAAAAEFAkUQAQMAIhM=</HashCode>
+      <FileName>Manager\ManagerGoal.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_360RevYOU.Manager.WebForm4">
+    <Position X="8.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>NMIAQCAAMAQAAEBUAAABAAQGIAAQQAAMAgAAAQIAIiA=</HashCode>
+      <FileName>Manager\ManagerPerformanceReview.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebFormsIdentity.Login">
+    <Position X="10.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAACAAAAAAAQIAAAAAACAYAAAAIAAAA=</HashCode>
+      <FileName>Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
